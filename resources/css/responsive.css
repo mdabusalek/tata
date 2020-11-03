@@ -1,0 +1,124 @@
+@media screen and (max-width: 1200px) {
+    .row {
+        width: 90%;
+    }
+    .clint-photo{
+        width: 22%;
+    }
+    .clint-review{
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mobile-menu span{
+        display: block;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    #testimonial{
+        text-align: center;
+    }
+    .clint-photo{
+        margin: auto;
+        float: none;
+        width: 100%;
+    }
+    .clint-review{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    .main-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #contact form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 58%;
+    }
+    .little-description{
+        width: 80%;
+    }
+    #team .span_1_of_4,
+    #services .span_1_of_4{
+        width: 100%;
+    }
+   .service-icon{
+       margin: 0;
+       margin-top: 4.5rem;
+       
+    }
+    #services h3{
+        margin: 1rem 0;
+    }
+    #services .box p{
+        margin-top: 1rem;
+    }
+    .team-member{
+        margin-bottom: 0;
+    }
+    #team h3{
+        margin: 0;
+    }
+    #team .box p{
+        margin-top: 1rem;
+    }
+    #team .social-icon{
+        margin-top: 1.5rem;
+    }
+    #testimonial .col:nth-child(1),
+    #testimonial .col:nth-child(2),
+    #testimonial .col:nth-child(3),
+    #testimonial .col:nth-child(4){
+        margin-top: 2rem;
+    }
+    .closebtn{
+        margin-right: 2.5rem;
+    }
+} 
+
+@media screen and (max-width: 576px){
+    .little-description{
+        width: 100%;
+    }
+    #skill .span_1_of_4{
+        width: 100%;
+    }
+    #skill h3{
+        margin-top: 0;
+    }
+    #skill .box{
+        margin-top: 2.5rem;
+    }
+    #contact form .span_1_of_2{
+        width: 100%;
+    }
+    #contact form .span_1_of_2:nth-child(2){
+        margin-left: 0;
+    }
+    #contact textarea{
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    #portfolio .span_1_of_2{
+        width: 100%;
+    }
+    #testimonial .span_1_of_2{
+        width: 100%;
+    }
+    section {
+        padding: 7rem 0;
+    }
+}
